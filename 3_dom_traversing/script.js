@@ -22,9 +22,9 @@
 
 // Exercise 12: Remove the second extra content element
 
-// Exercise 13: Modify the "src" attribute of an image with the ID of "my-image"
+// Exercise 13: Modify the "src" attribute of an image with the ID of "my-image" to have an image from the internet
 
-// Exercise 14: Modify the "data-info" attribute of an element with the ID of "my-element"
+// Exercise 14: Modify the "data-info" attribute of an element with the ID of "my-element" to have the data "new data"
 
 // Exercise 15: Add a new class "highlight" to an element with the ID of "main-content"
 
