@@ -78,6 +78,17 @@ const data = [
   }
 ];
 
+// Example
+// Get the street and city from the address object of the last 2 people
+const [, ...lastTwoPeople] = data;
+
+const [firstPerson, secondPerson] = lastTwoPeople;
+
+const [{ address: { street, city } }, { address: { street: street1, city: city1 } }] = lastTwoPeople;
+
+console.log(street, city, street1, city1);
+
+
 // ARRAY DESTRUCTURING
 
 // Exercise 1: Use array destructuring to get the first two hobbies of the first person in the data array
@@ -90,3 +101,10 @@ const data = [
 // Exercise 1: Use object destructuring to get the name, age, and city of the third person in the data array
 
 // Exercise 2: Use object destructuring to get the name and age of the first friend of the third person in the data array
+
+
+// THE REST OPERATOR
+
+// Exercise 1: Put the last two objects from the data array in a new array
+
+// Exercise 2: Put the last friend of the first person in a new array
